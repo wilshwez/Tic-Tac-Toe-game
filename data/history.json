@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "next_id": 7,
+  "matches": [
+    {
+      "id": 1,
+      "timestamp": "2026-10-10T19:24:30",
+      "mode": "pvc",
+      "difficulty": "Medium",
+      "player_x": "Player 1",
+      "player_o": "Computer",
+      "winner": "X",
+      "moves": [
+        [
+          "X",
+          1
+        ],
+        [
+          "O",
+          8
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "O",
+          5
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "O",
+          0
+        ],
+        [
+          "X",
+          4
+        ]
+      ],
+      "undos": 0,
+      "duration": 6.4
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-10-10T19:24:43",
+      "mode": "pvc",
+      "difficulty": "Hard",
+      "player_x": "Player 1",
+      "player_o": "Computer",
+      "winner": "draw",
+      "moves": [
+        [
+          "O",
+          4
+        ],
+        [
+          "X",
+          0
+        ],
+        [
+          "O",
+          8
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "O",
+          1
+        ],
+        [
+          "X",
+          7
+        ],
+        [
+          "O",
+          6
+        ],
+        [
+          "X",
+          5
+        ],
+        [
+          "O",
+          3
+        ]
+      ],
+      "undos": 0,
+      "duration": 7.3
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-10-10T19:24:51",
+      "mode": "pvc",
+      "difficulty": "Hard",
+      "player_x": "Player 1",
+      "player_o": "Computer",
+      "winner": "draw",
+      "moves": [
+        [
+          "X",
+          0
+        ],
+        [
+          "O",
+          4
+        ],
+        [
+          "X",
+          8
+        ],
+        [
+          "O",
+          5
+        ],
+        [
+          "X",
+          3
+        ],
+        [
+          "O",
+          6
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "O",
+          1
+        ],
+        [
+          "X",
+          7
+        ]
+      ],
+      "undos": 0,
+      "duration": 6.0
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-10-10T19:24:57",
+      "mode": "pvc",
+      "difficulty": "Hard",
+      "player_x": "Player 1",
+      "player_o": "Computer",
+      "winner": "O",
+      "moves": [
+        [
+          "O",
+          8
+        ],
+        [
+          "X",
+          0
+        ],
+        [
+          "O",
+          2
+        ],
+        [
+          "X",
+          4
+        ],
+        [
+          "O",
+          5
+        ]
+      ],
+      "undos": 0,
+      "duration": 3.6
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-10-10T19:25:39",
+      "mode": "pvc",
+      "difficulty": "Hard",
+      "player_x": "Player 1",
+      "player_o": "Computer",
+      "winner": "draw",
+      "moves": [
+        [
+          "X",
+          0
+        ],
+        [
+          "O",
+          4
+        ],
+        [
+          "X",
+          8
+        ],
+        [
+          "O",
+          7
+        ],
+        [
+          "X",
+          1
+        ],
+        [
+          "O",
+          2
+        ],
+        [
+          "X",
+          6
+        ],
+        [
+          "O",
+          3
+        ],
+        [
+          "X",
+          5
+        ]
+      ],
+      "undos": 0,
+      "duration": 5.5
+    },
+    {
+      "id": 6,
+      "timestamp": "2026-10-10T19:25:44",
+      "mode": "pvc",
+      "difficulty": "Hard",
+      "player_x": "Player 1",
+      "player_o": "Computer",
+      "winner": "O",
+      "moves": [
+        [
+          "O",
+          4
+        ],
+        [
+          "X",
+          0
+        ],
+        [
+          "O",
+          6
+        ],
+        [
+          "X",
+          2
+        ],
+        [
+          "O",
+          1
+        ],
+        [
+          "X",
+          8
+        ],
+        [
+          "O",
+          7
+        ]
+      ],
+      "undos": 0,
+      "duration": 3.3
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Tic-Tac-Toe Dark Edition needs NO third-party packages.
+# Everything used (tkinter, random, json, wave, ...) ships with Python 3.8+.
+#
+# If `import tkinter` fails on Linux, install it with your package manager:
+#   Debian/Ubuntu:  sudo apt install python3-tk
+#   Fedora:         sudo dnf install python3-tkinter

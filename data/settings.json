@@ -1,0 +1,9 @@
+{
+  "mode": "pvc",
+  "difficulty": "Hard",
+  "name_x": "Player 1",
+  "name_o": "Player 2",
+  "sound": true,
+  "animations": true,
+  "alternate_first": true
+}
