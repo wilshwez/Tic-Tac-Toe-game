@@ -75,20 +75,4 @@ python -m unittest discover -s tests -v
 GUI tests are skipped automatically without a display. Headless Linux: `xvfb-run -a python -m unittest discover -s tests -v`.
 The suite includes an exhaustive check that the Hard AI never loses, playing first or second against every possible opponent line.
 
-## What changed from the original
 
-**Preserved:** the `TicTacToe` class and its methods — `on_button_click`, `ai_move`, `ai_move_easy`,
-`ai_move_medium`, `ai_move_hard`, `check_winner`, `reset_board`, `update_score`, `toggle_ai_mode`,
-`set_ai_difficulty` — plus the `score` / `board` / `current_player` / `ai_mode` / `ai_difficulty` state, the
-Easy/Medium/Hard behaviour and the "AI plays O" convention. The original file is kept at
-`legacy/tictactoe_original.py`.
-
-**Fixed:**
-- **Hard AI scored wins backwards.** The old `minimax` returned `1 if is_maximizing else -1` on a win, so the AI treated
-  its own winning moves as bad. Scores are now computed from the AI's point of view and prefer faster wins.
-- **`requirements.txt.txt`** (double extension) listed `tkinter` and `random`, which are standard library and make
-  `pip install -r` fail. Replaced with a proper `requirements.txt` (no dependencies). The old one is in `legacy/`.
-- Game-over used blocking `messagebox` pop-ups; results now show in-window with animation and the next round starts on click/Enter.
-
-**Changed:** the board is now a Tkinter `Canvas` instead of nine `tk.Button`s — buttons can't animate drawn
-strokes, glow or confetti.
